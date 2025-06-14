@@ -38,6 +38,7 @@ class FilamentPhoneAuthServiceProvider extends PackageServiceProvider
             $package->hasTranslations();
         }
     }
+
     public function packageBooted(): void
     {
         Testable::mixin(new TestsFilamentPhoneAuth);

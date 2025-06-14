@@ -12,11 +12,11 @@ use Filament\Notifications\NotificationsServiceProvider;
 use Filament\Support\SupportServiceProvider;
 use Filament\Tables\TablesServiceProvider;
 use Filament\Widgets\WidgetsServiceProvider;
+use Frolax\FilamentPhoneAuth\FilamentPhoneAuthServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 use RyanChandler\BladeCaptureDirective\BladeCaptureDirectiveServiceProvider;
-use Frolax\FilamentPhoneAuth\FilamentPhoneAuthServiceProvider;
 
 class TestCase extends Orchestra
 {
